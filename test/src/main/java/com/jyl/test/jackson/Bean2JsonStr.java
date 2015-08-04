@@ -12,7 +12,7 @@ import com.jyl.test.jdk.genericity.User;
 
 public class Bean2JsonStr {
 	
-	
+	@Test
 	public void bean2Json(){
         User bean = new User();
         bean.setName("xxxxxxxxxxx");
@@ -31,7 +31,6 @@ public class Bean2JsonStr {
         System.out.println(json);  
     }
 	
-	@Test
 	public void json2Bean(){
 		
 		String json = "{\"id\":0,\"name\":\"xxxxxxxxxxx\",\"birth\":1416536489986}";

@@ -8,7 +8,7 @@ public class TestDecimalFormat {
 		
 		DecimalFormat decimalFormat = new DecimalFormat("00000");
 		
-		String format = decimalFormat.format(12);
+		String format = decimalFormat.format(123456789);
 		
 		System.out.println(format);
 	}
